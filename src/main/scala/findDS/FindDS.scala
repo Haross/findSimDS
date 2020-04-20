@@ -1,4 +1,6 @@
-import java.io._
+package findDS
+
+import java.io.{BufferedWriter, File, FileWriter}
 
 import org.apache.spark.sql.types.{IntegerType, StringType}
 import org.apache.spark.sql.{AnalysisException, DataFrame, Row, SparkSession}
@@ -135,5 +137,3 @@ object FindDS {
   }
 
 }
-
-
